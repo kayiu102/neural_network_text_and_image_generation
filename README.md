@@ -1,1 +1,3 @@
-# neural_network_text_and_image_generation
+Program that uses a paired dataset of text features and an image to generate unique representations in the same form as the input data. Was initially used to generate new game data and images for the Pokemon game series, but is extensible to other datasets in the given format. To use, first add a folder named "images" into the root directory,which contains your image dataset in .png format and an xml with each of your text features and the path to the corresponding image for each datapoint. Run setup.py, then train_vae.py, and finally train_dalle.py.  
+
+Written using the sklearn library, PyTorch,  and lucidrains' PyTorch replication of the image transformer DALL-E.
